@@ -43,7 +43,6 @@ namespace AwesomeDevEventsApi.Controllers
             _context.DevEvents.Add(devEvent);
 
             return CreatedAtAction(nameof(GetById), new { id = devEvent.Id }, devEvent);
-
         }
 
         // api/dev-events/1231454 PUT
